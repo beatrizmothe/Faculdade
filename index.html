@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TDE4</title>
+</head>
+<body>
+
+<h1>Formulário de Cadastro</h1>
+
+<form action="#" method="post">
+
+    <p>
+        <label>Nome: <input type="text" name="nome" size="50" required /></label>
+    </p>
+
+    <p>
+        <label>Sobrenome: <input type="text" name="nome_completo" size="50" required /></label>
+    </p>
+
+    <p>
+        <label>CPF: <input type="text" name="cpf" size="50" required /></label>
+    </p>
+
+    <p>
+        <label>E-mail: <input type="email" name="email" size="50" required /></label>
+    </p>
+
+    <p>
+        <label>Website: <input type="text" name="website" size="50" /></label>
+    </p>
+
+    <p>
+        <label>Endereço: <input type="text" name="endereco" size="50" /></label>
+    </p>
+
+    <p>
+        <label>Bairro: <input type="text" name="bairro" size="20" /></label>
+        <label>Cidade: <input type="text" name="cidade" size="20" /></label>
+    </p>
+
+    <p>
+        <label>CEP: <input type="text" name="cep" size="13" /></label>
+        <label>UF: 
+            <select name="uf" required>
+                <option value="" disabled selected>Selecione</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select>
+        </label>
+    </p>
+
+    <p>
+        Sexo: 
+        <label><input type="radio" name="sexo" value="M" required /> Masculino</label>
+        <label><input type="radio" name="sexo" value="F" /> Feminino</label>
+    </p>
+
+    <p>
+        Estado Civil:
+        <select name="estado_civil" required>
+            <option value="solteiro">Solteiro</option>
+            <option value="casado">Casado</option>
+            <option value="viuvo">Viúvo</option>
+            <option value="divorciado">Divorciado</option>
+        </select>
+    </p>
+
+    <p>
+        Login: <input type="text" name="login" size="20" required />
+        Senha: <input type="password" name="senha" size="20" required />
+    </p>
+
+    <p>
+        Receber informações sobre:
+        <label><input type="checkbox" name="assuntos" value="tecnologia" /> Tecnologia</label>
+        <label><input type="checkbox" name="assuntos" value="esportes" /> Esportes</label>
+        <label><input type="checkbox" name="assuntos" value="culinaria" /> Culinária</label>
+        <label><input type="checkbox" name="assuntos" value="politica" /> Política</label>
+    </p>
+
+    <p>
+        <input type="checkbox" name="aceito" value="sim" required /> Li as regras de cadastro e autorizo a criação do usuário
+    </p>
+
+    <p>
+        <input type="submit" value="Confirmar" />
+        <input type="reset" value="Limpar Formulário" />
+    </p>
+
+</form>
+
+</body>
+</html>
